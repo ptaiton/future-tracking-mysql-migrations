@@ -10,6 +10,7 @@ env:
   MYSQL_PASSWORD:  ${{ secrets.MYSQL_PASSWORD }}
   MYSQL_ROOT_PASSWORD:  ${{ secrets.MYSQL_ROOT_PASSWORD }}
   GKE_PROJECT: ${{ secrets.GKE_PROJECT }}
+  GKE_ZONE: europe-west1-b
   IMAGE: future-tracking-mysql-migrations
 
 jobs:
