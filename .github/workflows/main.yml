@@ -22,7 +22,14 @@ jobs:
     - uses: actions/checkout@v1
 
     - name: Build Docker container
-      run: docker build -f Dockerfile -t future-tracking-mysql-migrations . --tag gcr.io/$GKE_PROJECT/$IMAGE
+      run: |
+        docker build \
+          --build-arg MYSQL_USER=$MYSQL_USER \
+          --build-arg MYSQL_PASSWORD=$MYSQL_PASSWORD \
+          --build-arg MYSQL_ROOT_PASSWORD=$MYSQL_ROOT_PASSWORD \
+          -f Dockerfile \
+          -t future-tracking-mysql-migrations . \
+          --tag gcr.io/$GKE_PROJECT/$IMAGE
 
     - name: install python-openssl
       run: sudo apt-get install -y python-openssl -o=Dpkg::Use-Pty=0
