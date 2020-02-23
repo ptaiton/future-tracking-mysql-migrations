@@ -29,8 +29,8 @@ INSERT INTO step (id, number, description, id_recipe)
          ('d3adaff0-ad3d-443b-ae93-67964fb267e6', 6, 'Laisser un peu refroidir la compote et étaler la pâte brisée dans un moule et la piquer avec une fourchette.', 'd3aaaff0-ad3d-403b-ae93-67964fb267c8'),
          ('d3adaff0-ad3d-443b-ae93-67964fb267e7', 7, 'Verser la compote sur la pâte et placer les lamelles de pommes en formant une spirale ou plusieurs cercles, au choix ! Disposer des lamelles de beurre dessus.', 'd3aaaff0-ad3d-403b-ae93-67964fb267c8'),
          ('d3adaff0-ad3d-443b-ae93-67964fb267e8', 8, 'Mettre au four et laisser cuire pendant 30 min max. Surveiller la cuisson. Vous pouvez ajouter un peu de sucre vanillé sur la tarte pendant que çà cuit pour caraméliser un peu.', 'd3aaaff0-ad3d-403b-ae93-67964fb267c9'),
-         ('d3adaff0-ad3d-443b-ae93-67964eb267e8', 9, 'Peler vos pommes, les couper en huitième et les épépiner.', 'd3aaaff0-ad3d-403b-ae93-67964fb267c9'),
-         ('d3adaff0-ad3d-443b-ae93-67964db267e8', 10, 'Dans une casserole porter à ébullition l eau, le sucre et les gousses de vanille fendues et grattées.', 'd3aaaff0-ad3d-403b-ae93-67964fb267c9'),
-         ('d3adaff0-ad3d-443b-ae93-67964ab267e8', 11, 'Quand l eau est portée à ébullition y ajouter les pommes.', 'd3aaaff0-ad3d-403b-ae93-67963fb267c8'),
-         ('d3adaff0-ad3d-443b-ae93-67964qb267e8', 12, 'Faire cuire à feu doux en remuant de temps en temps.', 'd3aaaff0-ad3d-403b-ae93-67964fb267c9');
+         ('d3adaff0-ad3d-443b-ae93-67964eb267e8', 1, 'Peler vos pommes, les couper en huitième et les épépiner.', 'd3aaaff0-ad3d-403b-ae93-67964fb267c9'),
+         ('d3adaff0-ad3d-443b-ae93-67964db267e8', 2, 'Dans une casserole porter à ébullition l eau, le sucre et les gousses de vanille fendues et grattées.', 'd3aaaff0-ad3d-403b-ae93-67964fb267c9'),
+         ('d3adaff0-ad3d-443b-ae93-67964ab267e8', 3, 'Quand l eau est portée à ébullition y ajouter les pommes.', 'd3aaaff0-ad3d-403b-ae93-67963fb267c8'),
+         ('d3adaff0-ad3d-443b-ae93-67964qb267e8', 4, 'Faire cuire à feu doux en remuant de temps en temps.', 'd3aaaff0-ad3d-403b-ae93-67964fb267c9');
 
