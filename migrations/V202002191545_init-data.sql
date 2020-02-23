@@ -15,10 +15,10 @@ INSERT INTO ingredient_recipe (id_ingredient, id_recipe, unit, quantity)
          ('d3adaff0-ad3d-403b-ae93-67964fb267e8', 'd3aaaff0-ad3d-403b-ae93-67964fb267c8', '', 1),
          ('d3adaff0-ad3d-403b-af93-67964fb267e8', 'd3aaaff0-ad3d-403b-ae93-67964fb267c8', '', 1),
          ('d3adaff0-ad3d-403b-ae93-67964fb267e9', 'd3aaaff0-ad3d-403b-ae93-67964fb267c8', 'g', 30),
-         ('d3aaaff0-ad3d-403b-ae93-67964fb267e8', 'd3aaaff0-ad3d-403b-ae93-67964fb267e8', 'g', 800),
-         ('d3adaff0-ad3d-403b-af93-67934fb267e8', 'd3aaaff0-ad3d-403b-ae93-67964fb267e8', 'gousse', 2),
-         ('d3adaff0-ad3d-403b-ae93-67964fb267e9', 'd3aaaff0-ad3d-403b-ae93-67964fb267e8', 'g', 150),
-         ('d3adaff0-ad3d-403b-ae93-67964fb265e9', 'd3aaaff0-ad3d-403b-ae93-67964fb267e8', 'cl', 10);
+         ('d3aaaff0-ad3d-403b-ae93-67964fb267e8', 'd3aaaff0-ad3d-403b-ae93-67964fb267c9', 'g', 800),
+         ('d3adaff0-ad3d-403b-af93-67934fb267e8', 'd3aaaff0-ad3d-403b-ae93-67964fb267c9', 'gousse', 2),
+         ('d3adaff0-ad3d-403b-ae93-67964fb267e9', 'd3aaaff0-ad3d-403b-ae93-67964fb267c9', 'g', 150),
+         ('d3adaff0-ad3d-403b-ae93-67964fb265e9', 'd3aaaff0-ad3d-403b-ae93-67964fb267c9', 'cl', 10);
 
 INSERT INTO step (id, number, description, id_recipe)
   VALUES ('d3adaff0-ad3d-443b-ae93-67964fb267e1', 1, 'Éplucher et découper en morceaux 4 Golden.', 'd3aaaff0-ad3d-403b-ae93-67964fb267c8'),
