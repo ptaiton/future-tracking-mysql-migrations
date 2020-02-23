@@ -3,7 +3,7 @@ INSERT INTO ingredient (id, name)
          ('d3adaff0-ad3d-403b-ae93-67964fb267e8', 'pâte brisée'),
          ('d3adaff0-ad3d-403b-af93-67964fb267e8', 'sachet de sucre'),
          ('d3adaff0-ad3d-403b-af93-67934fb267e8', 'gousse de vanille'),
-         ('d3adaff0-ad3d-403b-ae93-67964fb267e9', 'sucre')
+         ('d3adaff0-ad3d-403b-ae93-67964fb267e9', 'sucre'),
          ('d3adaff0-ad3d-403b-ae93-67964fb265e9', 'eau');
 
 INSERT INTO recipe (id, name, number_of_persons, image)
